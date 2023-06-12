@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Conversiones.js"></script>
+</head>
+<body>
+    <div id ="container">
+        <div id="header">
+            <h1>Conversión JS</h1>
+        </div>
+        <div id="contenido">
+            <form>
+            <h2>Conversion de pesos a dolares y viceversa</h2>
+            <p>
+                <label for="Pesos">Pesos: </label>
+                <input type="number"
+                name="P"
+                id="P"
+                placeholder="Captura pesos"
+                value="0"
+                required>
+            </p>
+            <p>
+                <label for="Dolares">Dolar:</label>
+                <input type="number"
+                name="D"
+                id="D"
+                placeholder="Captura el dolar"
+                value="0"
+                required>   
+            </p>
+            <p>
+                <label for="Cambio">Conversion:</label>
+                <input type="number"
+                name="Conver"
+                id="Conver"
+                placeholder="Convertir"
+                value="0"
+                required>
+            </p>
+            <button type="button" onclick="Conversion()">Convertir</button>
+            <button type="button" onclick="Limpiar()">Limpiar</button>
+        </div>
+            </form>
+     </div>     
+</body>
+</html>
